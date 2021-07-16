@@ -1,6 +1,6 @@
 package model;
 
-import java.util.Arrays;
+
 import java.util.Scanner;
 import java.util.Date;
 import java.text.ParseException;
@@ -44,7 +44,7 @@ public class Ejercicios {
 
 class Metodo{
 
-    public static void main(String[] args) throws ParseException {
+    public static void main4(String[] args) throws ParseException {
         Ejercicios ejercicio1 = new Ejercicios();
         System.out.println(ejercicio1.getSuma());
         

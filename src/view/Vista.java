@@ -13,7 +13,7 @@ public class Vista {
         System.out.println(wallet1.saveMoney(900000));
         System.out.println(wallet1.getSaldo());
         Owner cliente1 = new Owner("juan");
-        String respoes=cliente1.getWallet().saveMoney(1000);
+        cliente1.getWallet().saveMoney(1000);
         cliente1.getWallet().takeMoney(200);
         
     }

@@ -7,6 +7,7 @@ public class Test {
     public void escenarioOwner(){
         Owner owner1 = new Owner("Sendy");
         boolean test1 = assertTrue("sendy",  owner1.getNombre());
+        
         System.out.println((test1)? "paso":"no paso");
     }
     
